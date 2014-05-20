@@ -11,6 +11,7 @@
 namespace ImageProcessor
 {
     #region Using
+
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
@@ -20,10 +21,11 @@ namespace ImageProcessor
     using System.Linq;
     using System.Threading;
 
-    using ImageProcessor.Extensions;
+    using ImageProcessor.Core.Common.Extensions;
     using ImageProcessor.Imaging;
     using ImageProcessor.Imaging.Filters;
     using ImageProcessor.Processors;
+
     #endregion
 
     /// <summary>

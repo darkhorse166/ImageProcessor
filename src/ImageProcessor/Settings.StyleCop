@@ -5,6 +5,7 @@
       <Value>colour</Value>
       <Value>lomograph</Value>
       <Value>octree</Value>
+      <Value>png</Value>
       <Value>quantizer</Value>
     </CollectionProperty>
   </GlobalSettings>

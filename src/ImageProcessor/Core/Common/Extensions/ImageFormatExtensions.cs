@@ -9,7 +9,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ImageProcessor.Extensions
+namespace ImageProcessor.Core.Common.Extensions
 {
     #region
     using System.Drawing.Imaging;

@@ -16,7 +16,8 @@ namespace ImageProcessor.Processors
     using System.Drawing.Drawing2D;
     using System.Drawing.Imaging;
     using System.Text.RegularExpressions;
-    using ImageProcessor.Extensions;
+
+    using ImageProcessor.Core.Common.Extensions;
 
     /// <summary>
     /// Tints an image with the given colour.

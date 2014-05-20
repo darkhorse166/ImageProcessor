@@ -9,7 +9,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace ImageProcessor.Extensions
+namespace ImageProcessor.Core.Common.Extensions
 {
     using System.Collections.Generic;
     using ImageProcessor.Imaging;
