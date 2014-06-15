@@ -14,6 +14,7 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,9 +68,11 @@
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="ImageFactory.cs" />
     <Compile Include="Imaging\AnchorPosition.cs" />
+    <Compile Include="Imaging\ExifPropertyTagType.cs" />
     <Compile Include="Imaging\Convolution.cs" />
     <Compile Include="Imaging\CropLayer.cs" />
     <Compile Include="Imaging\CropMode.cs" />
+    <Compile Include="Imaging\ExifPropertyTag.cs" />
     <Compile Include="Imaging\Filters\MatrixFilterRegexAttribute.cs" />
     <Compile Include="Imaging\Filters\MatrixFilters.cs" />
     <Compile Include="Imaging\GaussianLayer.cs" />
